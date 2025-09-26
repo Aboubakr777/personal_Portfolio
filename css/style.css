@@ -2032,3 +2032,28 @@ body {
     background-position: 0% 50%;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;              /* width of the vertical scrollbar */
+  height: 10px;             /* height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;       /* color of the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007bffa0;       /* scrollbar color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #177fedbb;       /* hover color */
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;                 /* "auto" or "thin" */
+  scrollbar-color: #1674d899 #f1f1f1;      /* thumb color | track color */
+}
