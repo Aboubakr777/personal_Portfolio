@@ -311,7 +311,9 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
   background: #E6E6E6;
-  background-image: url('../images/belmaayo_transparent.png');
+  /* background-image: url('../images/belmaayo_transparent.png'); */
+  background-image: url('../images/belmaayo_avatar777.png');
+
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2044,7 +2046,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #007bffa0;       /* scrollbar color */
+  background: #D1E1E5;       /* scrollbar color */
   border-radius: 10px;
 }
 
@@ -2055,5 +2057,21 @@ body {
 /* Firefox support */
 * {
   scrollbar-width: thin;                 /* "auto" or "thin" */
-  scrollbar-color: #1674d899 #f1f1f1;      /* thumb color | track color */
+  scrollbar-color: #a4dae6 #f1f1f1;      /* thumb color | track color */
+}
+
+
+.has-scrollbar::-webkit-scrollbar {
+  width: 5px; /* for vertical scrollbar */
+  height: 5px; /* for horizontal scrollbar */
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  background: var(--onyx);
+  border-radius: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--orange-yellow-crayola);
+  border-radius: 5px;
 }
