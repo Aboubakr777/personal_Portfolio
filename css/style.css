@@ -902,6 +902,9 @@ main {
   overflow: hidden;
   margin-bottom: 15px;
 }
+.project-img img {
+  transform: scale(1.1);
+}
 
 .project-img::before {
   content: "";
